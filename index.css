@@ -1,0 +1,21 @@
+.table {
+  display: grid;
+  border: 1px solid #000;
+  aspect-ratio: 1;
+}
+
+.cell {
+  box-sizing: border-box;
+}
+
+.cell.active {
+  background-color: green;
+}
+
+.cell.ant {
+  background-color: red;
+}
+
+.cell:hover {
+  box-shadow: 0px 0px 0px 1px red;
+}
